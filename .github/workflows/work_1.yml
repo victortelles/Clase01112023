@@ -1,8 +1,8 @@
-name: Work 1 Dorx
+name: Work 1 VMTA
 on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
     - name: Print Something
-      run: echo "Hola Pitaya!"
+      run: echo "Hola, Dicelo al covenant!"
