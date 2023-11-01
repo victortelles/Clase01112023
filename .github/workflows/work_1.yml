@@ -1,8 +1,16 @@
-name: Work 1 VMTA
-on: [push]
+name: Workhome 2 VMTA
+on:
+  push:
+    branches:
+    - test_1
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Print Something
+    - name: Impresion 1
       run: echo "Hola, Dicelo al covenant!"
+    - name: Impresion 2
+      run: echo "Gort gort gort"
+    - name: Impresion 3
+      run: echo "Pozole"
