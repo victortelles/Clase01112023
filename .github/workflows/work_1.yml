@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Print Something
-    run: echo "Hola Pitaya!"
+      run: echo "Hola Pitaya!"
